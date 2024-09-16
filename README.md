@@ -1,5 +1,5 @@
-# juntos_somos_mais
-Projeto de busca de clientes por região usando Javascript com Python e Django
+# juntos_somos_mais (Busca de clientes via JSON)
+Projeto de busca de clientes por região usando Javascript com Python e Django.
 
 Informações de acesso da API:
 
