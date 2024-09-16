@@ -29,7 +29,7 @@ No Windows: venv\Scripts\activate
 Baixe os arquivos deste projeto usando o comando:
 
 git clone https://github.com/felipe-michael1/juntos_somos_mais.git -- acesso via terminal windows ou VS Code
-Para acesso via ssh: git@github.com:felipe-michael1/juntos_somos_mais.git
+para acesso via ssh: git@github.com:felipe-michael1/juntos_somos_mais.git
 
 - Os arquivos devem ser instalados no repositório onde o Django está instalado em sua máquina ou servidor local.
 
