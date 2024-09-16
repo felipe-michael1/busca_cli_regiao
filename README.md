@@ -36,6 +36,23 @@ para acesso via ssh: git@github.com:felipe-michael1/juntos_somos_mais.git
 Execute o seguinte comando para rodar o projeto na sua máquina ou servidor:
 python manage.py runserver
 
+<strong>Erros comuns de CSS ou Visualização de página:</strong>
+
+Alguns erros comuns podem aparecer quando o arquivo settings.py é configurado incorretamente para uso do método static. Antes de iniciar a aplicação, ou se apresentar algum erro de CSS, verificar o arquivo settings.py a seguinte estrutura:
+
+Importar o os.
+
+Diretório onde o Django vai procurar arquivos estáticos durante o desenvolvimento
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'myapp/static'),
+]
+
+Diretório onde o Django vai coletar arquivos estáticos para produção
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+URL para acessar os arquivos estáticos
+STATIC_URL = '/static/'
+
 <strong>Como usar a API no Postman?</strong>
 
 Linha de Comando: Muitas configurações de servidor envolvem iniciar o servidor por meio de um prompt de comando ou terminal. 
