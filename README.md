@@ -20,7 +20,7 @@ ou no cmd do windows (prompt de comando) digite o seguinte comando para instalar
 
 pip install django
 
-Crie um ambiente virtual:
+<strong>Crie um ambiente virtual:</strong>
 
 python -m venv venv
 source venv/bin/activate  	
@@ -34,7 +34,7 @@ para acesso via ssh: git@github.com:felipe-michael1/juntos_somos_mais.git
 - Os arquivos devem ser instalados no repositório onde o Django está instalado em sua máquina ou servidor local.
 
 Execute o seguinte comando para rodar o projeto na sua máquina ou servidor:
-python manage.py runserver
+<strong>python manage.py runserver</strong>
 
 <strong>Erros comuns de CSS ou Visualização de página:</strong>
 
