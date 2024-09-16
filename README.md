@@ -26,6 +26,13 @@ python -m venv venv
 source venv/bin/activate  	
 No Windows: venv\Scripts\activate
 
+Baixe os arquivos deste projeto usando o comando:
+
+git clone https://github.com/felipe-michael1/juntos_somos_mais.git -- acesso via terminal windows ou VS Code
+Para acesso via ssh: git@github.com:felipe-michael1/juntos_somos_mais.git
+
+- Os arquivos devem ser instalados no repositório onde o Django está instalado em sua máquina ou servidor local.
+
 Execute o seguinte comando para rodar o projeto na sua máquina ou servidor:
 python manage.py runserver
 
@@ -49,3 +56,4 @@ Identifique o processo conflitante e pare-o ou configure seu servidor para usar 
 
 #Licença:
 Este código é licenciado para uso somente do seu desenvolvedor e também da equipe de trabalho da Juntos Somos Mais.
+- Caso tenham alguma dúvida na instalação, favor enviar um email para: felipe.fonseca.michael1@gmail.com
