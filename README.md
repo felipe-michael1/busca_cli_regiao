@@ -1,7 +1,7 @@
 # juntos_somos_mais (Busca de clientes via JSON)
 Projeto de busca de clientes por região usando Javascript com Python e Django.
 
-Informações de acesso da API:
+<strong>Informações de acesso da API:</strong>
 
 -Requisitos:
 
@@ -36,7 +36,7 @@ para acesso via ssh: git@github.com:felipe-michael1/juntos_somos_mais.git
 Execute o seguinte comando para rodar o projeto na sua máquina ou servidor:
 python manage.py runserver
 
-Como usar a API no Postman?
+<strong>Como usar a API no Postman?</strong>
 
 Linha de Comando: Muitas configurações de servidor envolvem iniciar o servidor por meio de um prompt de comando ou terminal. 
 Executar o comando apropriado (específico para a tecnologia do seu servidor) deve iniciar o processo do servidor.
@@ -54,6 +54,6 @@ Verifique suas configurações de firewall para garantir que a comunicação ent
 Conflitos de Processo: Outro aplicativo pode estar usando a mesma porta que seu servidor local. 
 Identifique o processo conflitante e pare-o ou configure seu servidor para usar uma porta diferente.
 
-#Licença:
+<strong>#Licença:</strong>
 Este código é licenciado para uso somente do seu desenvolvedor e também da equipe de trabalho da Juntos Somos Mais.
 - Caso tenham alguma dúvida na instalação, favor enviar um email para: felipe.fonseca.michael1@gmail.com
