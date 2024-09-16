@@ -62,7 +62,7 @@ O número da porta pode variar dependendo da sua configuração do servidor, sen
 
 Verifique a URL da API instalada na máquina:
 
-Onde foi testado, foi com a seguinte URL:
+A aplicação foi testada com a seguinte URL:
 http://127.0.0.1/busca_cli_json?regiao=norte
 
 Caso não consiga rodar a API no Postman, verifique:
