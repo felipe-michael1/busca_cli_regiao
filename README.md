@@ -57,6 +57,10 @@ STATIC_URL = '/static/'
 
 <strong>Como usar a API no Postman?</strong>
 
+Se for usar em localhost é necessário instalar o PostMan Agent em seu computador. Você pode instalar a partir deste link abaixo:
+
+https://www.postman.com/downloads/postman-agent/
+
 Linha de Comando: Muitas configurações de servidor envolvem iniciar o servidor por meio de um prompt de comando ou terminal. 
 Executar o comando apropriado (específico para a tecnologia do seu servidor) deve iniciar o processo do servidor.
 Acesso pelo Navegador: Uma vez que o servidor esteja em funcionamento, abra uma janela do navegador web e navegue até http://localhost:<número da porta>. 
