@@ -34,7 +34,9 @@ para acesso via ssh: git@github.com:felipe-michael1/juntos_somos_mais.git
 - Os arquivos devem ser instalados no repositório onde o Django está instalado em sua máquina ou servidor local.
 
 Execute o seguinte comando para rodar o projeto na sua máquina ou servidor:
-<strong>python manage.py runserver</strong>
+<strong>python manage.py runserver.</strong>
+
+Para executar o projeto é necessário que o arquivo manage.py esteja no mesmo diretório onde irá ser realizado o deploy do programa.
 
 <strong>Erros comuns de CSS ou Visualização de página:</strong>
 
@@ -42,15 +44,15 @@ Alguns erros comuns podem aparecer quando o arquivo settings.py é configurado i
 
 Importar o os.
 
-Diretório onde o Django vai procurar arquivos estáticos durante o desenvolvimento
+Diretório onde o Django vai procurar arquivos estáticos durante o desenvolvimento:
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'myapp/static'),
 ]
 
-Diretório onde o Django vai coletar arquivos estáticos para produção
+Diretório onde o Django vai coletar arquivos estáticos para produção:
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-URL para acessar os arquivos estáticos
+URL para acessar os arquivos estáticos:
 STATIC_URL = '/static/'
 
 <strong>Como usar a API no Postman?</strong>
