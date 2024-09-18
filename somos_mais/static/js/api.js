@@ -67,9 +67,6 @@ $(document).ready(function () {
         if (regiao == 5) {
             id_regiao = 'nordeste'
         } 
-        if (regiao == 6) {
-            id_regiao = 'outra'
-        }
        
         // traz as informações vindas da API
         $.ajax({
@@ -80,10 +77,8 @@ $(document).ready(function () {
                 id_regiao: id_regiao
             },
             success: function (response) {
-              /*  console.log(response);*/
-
+              //limpa a tabela 
               table.clear();
-
                 // Adiciona dados à tabela
                 response.clientes.forEach(cliente => {
                     var observacaoClass = '';
