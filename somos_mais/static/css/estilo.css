@@ -1,0 +1,92 @@
+/* Folha de estilo css projeto juntos somos + */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.col-sm-6, .col-sm-12 {
+    border: 1px solid #c9c9c9;
+}
+.col-sm-12 .card-body {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(218,218,218,1) 100%);
+}
+.card {
+    border: 0 none !important;
+}
+#container {
+    margin: 0 auto;
+}
+#container.espaco {
+    position: relative;
+}
+#container .btn-busca-csv,
+#container .btn-busca-json {
+    float: right;
+}
+#footer {
+    bottom: 0;
+    width: 100%;
+}
+/* formulario */
+.form-group .col-sm-6 {
+    padding: 30px;
+    width: 50%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.form-group .col-sm-6 .btn-busca {
+    margin-top: 30px;
+    float: right;
+}
+.card-body {
+    border: 0 none !important;
+}
+
+/* legendas */
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon-circle-blue {
+    background-color: #007bff;
+    /* Cor de fundo dos círculos */
+}
+.icon-circle-green {
+    background-color: #2ca315;
+    /* Cor de fundo dos círculos */
+}
+.icon-circle-yellow {
+    background-color: #f6fa05;
+    /* Cor de fundo dos círculos */
+}
+.legend-item {
+    margin-bottom: 10px;
+}
+
+.legenda_clientes {
+    display: none;
+}
+
+/* paginas */
+.box-content {
+    padding: 30px;
+}
+/* botao voltar páginas */
+.btn-voltar {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}

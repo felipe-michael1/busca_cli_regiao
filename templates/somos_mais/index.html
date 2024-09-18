@@ -1,0 +1,94 @@
+{% include 'somos_mais/header.html' %}
+
+<!-- Container Principal. Container com acesso aos botoes de busca por CSV Excel e JSON-->
+<section id="container" class="espaco">
+
+    <div class="box-content">
+        <h2>API de <strong>Busca por Clientes</strong></h2>
+    </div>
+    <div class="row principal">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Buscar Clientes</h5>
+                    <p class="card-text">Clique no botão abaixo para buscar o cliente:</p>
+                    <a href="#" class="btn btn-primary btn-busca-json" title="Veja mais aqui">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row view-json" style="display: none;">
+        <form action="" method="">
+            <div class="form-group">
+                <div class="col-sm-6">
+                    <h5>Buscar via API</h5>
+                    <label for="exampleSelect">Escolha uma região:</label>
+                    <select class="custom-select form-select" id="regiao">
+                        <option selected disabled>SELECIONE...</option>
+                        <option value="1">Norte</option>
+                        <option value="2">Sul</option>
+                        <option value="3">Sudeste</option>
+                        <option value="4">Centro-Oeste</option>
+                        <option value="5">Nordeste</option>
+                    </select>
+                    <button type="button" class="btn btn-success btn-busca" title="Buscar">Buscar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="tabela_responsive">
+        <h5>Lista de Clientes Cadastrados</h5>
+        <table id="tabela_json" class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col">Região</th>
+                    <th scope="col">Endereço</th>
+                    <th scope="col">Cep</th>
+                    <th scope="col">País</th>
+                    <th scope="col">Observação</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div class="container mt-5 legenda_clientes">
+        <h5>Legendas de Clientes</h5>
+        <div class="row">
+            <div class="col-md-4 legend-item">
+                <div class="d-flex align-items-center">
+                    <div class="icon-circle icon-circle-blue">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <span class="ml-2">Especial</span>
+                </div>
+            </div>
+            <div class="col-md-4 legend-item">
+                <div class="d-flex align-items-center">
+                    <div class="icon-circle icon-circle-green">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <span class="ml-2">Normal</span>
+                </div>
+            </div>
+            <div class="col-md-4 legend-item">
+                <div class="d-flex align-items-center">
+                    <div class="icon-circle icon-circle-yellow">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <span class="ml-2">Trabalhoso</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% include 'somos_mais/footer.html' %}
+</body>
+
+</html>
