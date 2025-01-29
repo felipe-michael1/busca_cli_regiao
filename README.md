@@ -78,5 +78,5 @@ Conflitos de Processo: Outro aplicativo pode estar usando a mesma porta que seu 
 Identifique o processo conflitante e pare-o ou configure seu servidor para usar uma porta diferente.
 
 <strong>#Licença:</strong>
-Este código é licenciado para uso somente do seu desenvolvedor e também da equipe de trabalho da Juntos Somos Mais.
+Este código é licenciado para uso somente para fins didáticos.
 - Caso tenham alguma dúvida na instalação, favor enviar um email para: felipe.fonseca.michael1@gmail.com
